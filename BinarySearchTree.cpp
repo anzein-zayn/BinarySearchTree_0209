@@ -54,5 +54,14 @@ public:
         return;
     }
 
+    if (x>parent->info)//jika x lebih besar dari parent
+    {
+        parent->rightchild = newNode;//maka buat rightchild dari parent menjadi point new node
+
+        return;
+    }
+    }
+
+   
     
 };
