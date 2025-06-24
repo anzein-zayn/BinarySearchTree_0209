@@ -31,6 +31,10 @@ public:
     Node *newNode = new Node();//1. Alokasi memory ke node baru
     newNode->info = x;//2. Assign value ke data field new node
 
+    //3. Membuat kiri dan kanan child dari newNode menjadi NULL
+    newNode ->leftchild = nullptr;
+    newNode->rightchild = nullptr;
+
     
     
 
