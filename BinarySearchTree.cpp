@@ -38,6 +38,14 @@ public:
     Node *parent = nullptr;
     Node *currentNode = nullptr;
    
-    
+     search(x, parent, currentNode);
 
+    if (parent==nullptr)
+    {
+        ROOT = newNode;//5. Menandai newNode seperti ROOT
+
+        return;
+    }
+
+   
 };
