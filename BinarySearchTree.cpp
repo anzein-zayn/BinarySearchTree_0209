@@ -47,5 +47,12 @@ public:
         return;
     }
 
-   
+    if (x< parent-> info)//jika x lebih kecil dari parent
+    {
+        parent->leftchild = newNode;// maka buat leftchild parent ke newNode
+
+        return;
+    }
+
+    
 };
