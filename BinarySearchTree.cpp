@@ -29,7 +29,9 @@ public:
         cout << " Masukkan nilai : ";
         cin >> x;
     Node *newNode = new Node();//1. Alokasi memory ke node baru
+    newNode->info = x;//2. Assign value ke data field new node
 
+    
     
 
 };
