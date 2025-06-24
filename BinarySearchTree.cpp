@@ -28,5 +28,8 @@ public:
         int x;
         cout << " Masukkan nilai : ";
         cin >> x;
+    Node *newNode = new Node();//1. Alokasi memory ke node baru
+
     
+
 };
