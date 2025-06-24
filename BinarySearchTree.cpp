@@ -12,3 +12,8 @@ public:
         rightchild = nullptr;
     }
 };
+
+class BinaryTree
+{
+
+};
